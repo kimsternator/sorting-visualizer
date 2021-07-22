@@ -1,0 +1,36 @@
+.total-container {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+
+  .array-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: flex-end;
+
+    .array-element {
+      width: 4px;
+      display: inline-block;
+      margin: 0 2px;
+      background-color: coral;
+    }
+  }
+
+  .algorithms {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .algorithm {
+      margin: 0 5px;
+    }
+  }
+}
